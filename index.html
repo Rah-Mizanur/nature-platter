@@ -10,193 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
     <style>
-        * {
-            margin: 00px;
-            padding: 00px;
-            font-family: "Sora";
-        }
-
-        .header {
-            display: flex;
-            justify-content: space-around;
-            height: 10vh;
-            /* background: lightseagreen; */
-            align-items: center;
-        }
-
-        .home {
-            display: flex;
-            gap: 2vw;
-            font-size: 1vw;
-        }
-
-        .search {
-            font-size: 1.5vw;
-        }
-
-        .logo img {
-            height: 5vh;
-        }
-
-        .ri-menu-line {
-            display: none;
-        }
-
-        .banner-container {
-            text-align: center;
-
-        }
-
-        .banner-content h1 span {
-            color: aqua;
-        }
-
-        .banner-content {
-            align-items: center;
-            text-align: center;
-            padding: 2vw 2vh;
-        }
-
-        .banner-content h1 {
-            /* margin-bottom: 2vh; */
-        }
-
-        .banner-image {
-            width: 80vw;
-            padding: 2vh;
-
-
-
-
-        }
-
-        .banner-image img {
-            width: 100%;
-            align-items: center;
-        }
-
-        .header-container {
-            background-image: linear-gradient(#ffffff, #EFEBE3);
-        }
-
-        .services {
-            /* max-width: 20vw; */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            border: 2px solid #EFEBE3;
-            gap: 2vw;
-            padding: 1vw;
-            background-image: linear-gradient(#ffffff, #efefef);
-        }
-
-        .services h1 {
-            font-size: 2vw;
-        }
-
-        .services img {
-            width: 6vw;
-        }
-
-        .services-container {
-            margin: 2vw auto;
-            display: flex;
-            grid: template columns 1px / 3px;
-            ;
-            justify-content: space-around;
-            gap: 2vw;
-
-
-        }
-
-        .service {
-            margin-top: 4vw;
-            margin-bottom: 4vw;
-            margin-left: 4vw;
-        }
-
-        .service {
-            margin: 4vw;
-        }
-
-        .star {
-            display: flex;
-            align-items: center;
-            gap: 2vw;
-        }
-
-        .star p {
-            font-size: 2vw;
-        }
-
-        .product-container {
-            display: flex;
-            padding: 2vw;
-            border: 2px solid green;
-            align-items: center;
-            width: 20vw;
-            gap: 30px;
-            height: 15vw;
-        }
-
-        .product-content {
-            /* border: 2px solid darkblue; */
-            display: grid;
-            grid-template-columns: 20vw 20vw 20vw 20vw;
-            gap: 2vw;
-        }
-
-
-        @media (max-width:600px) {
-            .ri-menu-line {
-                display: inline-block;
-            }
-
-            .search,
-            .home,
-            .log-in {
-                display: none;
-            }
-
-            .services-container {
-                margin: 2vw auto;
-                display: grid;
-                grid-template-columns: 1/1;
-                width: 90vw;
-                height: 60vh;
-
-
-
-
-            }
-
-            .services p {
-                font-size: 2vw;
-            }
-
-            .services img {
-                width: 30%;
-                height: auto;
-            }
-
-
-            .product-container {
-                width: 80vw;
-                height: auto;
-                align-items: center;
-                
-            }
-
-            .product-content {
-                grid-template-columns: 80vw;
-                margin-left: 2vw;
-            }
-
-        }
-
-
-        
+       
     </style>
 </head>
 
@@ -480,7 +296,35 @@
             </div>
         </div>
     </div>
+<!-- 4th section start here -->
 
+    <div class="service">
+        <h1>arrivals and offer</h1>
+    </div>
+    <div class="offer-container">
+        <div class="offer-left">
+            <div class="offer-left-left">
+                <img src="./assets/dawat-logo.png" alt="">
+                <p> cook exotic dishes </p>
+                <h2> up to 20% OFF</h2>
+            </div>
+            <div class="right">
+                 <img src="./assets/product-dawat.png" alt="">
+            </div>
+        </div>
+        <div class="offer-right">
+            <div class="">
+                <img src="./assets/indiagate-logo.png" alt="">
+                <p>world's no 1 rice</p>
+                <h2> up to 40% OFF</h2>
+            </div>
+            <div class="right">
+                <img src="./assets/product-indiagate.png" alt="">
+            </div>
+           
+        </div>
+    </div>
+    <!-- 5th section starts here  -->
 
 </body>
 
