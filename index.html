@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature plutter </title>
+    <link rel="shortcut icon" href="./assets/hero-img.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        * {
+            margin: 00px;
+            padding: 00px;
+            font-family: "Sora";
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-around;
+            height: 10vh;
+            /* background: lightseagreen; */
+            align-items: center;
+        }
+
+        .home {
+            display: flex;
+            gap: 2vw;
+            font-size: 1vw;
+        }
+
+        .search {
+            font-size: 1.5vw;
+        }
+
+        .logo img {
+            height: 5vh;
+        }
+
+        .ri-menu-line {
+            display: none;
+        }
+
+        .banner-container {
+            text-align: center;
+
+        }
+
+        .banner-content h1 span {
+            color: aqua;
+        }
+
+        .banner-content {
+            align-items: center;
+            text-align: center;
+            padding: 2vw 2vh;
+        }
+
+        .banner-content h1 {
+            /* margin-bottom: 2vh; */
+        }
+
+        .banner-image {
+            width: 80vw;
+            padding: 2vh;
+
+
+
+
+        }
+
+        .banner-image img {
+            width: 100%;
+            align-items: center;
+        }
+
+        .header-container {
+            background-image: linear-gradient(#ffffff, #EFEBE3);
+        }
+
+        .services {
+            /* max-width: 20vw; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid #EFEBE3;
+            gap: 2vw;
+            padding: 1vw;
+            background-image: linear-gradient(#ffffff, #efefef);
+        }
+        .services h1{
+            font-size: 2vw;
+        }
+
+        .services img {
+            width: 6vw;
+        }
+
+        .services-container {
+            margin: 2vw auto;
+            display: flex;
+            grid: template columns 1px / 3px;;
+            justify-content: space-around;
+            gap: 2vw;
+
+
+        }
+
+        #services {
+            margin-top: 4vw;
+            margin-bottom: 4vw;
+            margin-left: 4vw;
+        }
+
+
+
+        @media (max-width:600px) {
+            .ri-menu-line {
+                display: inline-block;
+            }
+
+            .search,
+            .home,
+            .log-in {
+                display: none;
+            }
+            .services-container {
+            margin: 2vw auto;
+            display: grid;
+            grid-template-columns: 1/1;
+            width: 90vw;
+            height: 60vh;
+        
+            
+
+
+        }
+        .services p{
+            font-size:2vw;
+        }
+        .services img{
+            width: 30%;
+            height: auto;
+        }
+     
+        }
+    </style>
+</head>
+
+<body>
+    <main class="header-container">
+
+
+        <div class="header">
+            <div class="logo">
+                <img src="./assets/logo-green.png" alt="">
+            </div>
+            <div class="home">
+                <h2> products</h2>
+                <h2> services</h2>
+                <h2>contacts</h2>
+            </div>
+            <div class="search">
+                <i class="ri-search-line"></i>
+                <i class="ri-shopping-cart-2-line"></i>
+            </div>
+            <div class="log-in">
+                <button>log In</button>
+                <button> sign UP</button>
+            </div>
+            <div>
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <div class="banner-container">
+            <div class="banner-content">
+                <h1>Freshness <span>You Can <br> Count </span> On, Prices You'll Love!</h1>
+                <p> Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve
+                    got you covered every day!</p>
+                <div class="banner-image">
+                    <img src="./assets/hero-img.png" alt="hero-img">
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- 2nd banner starts here -->
+    <div id="services">
+        <h1> Services </h1>
+    </div>
+    <div class="services-container">
+
+        <div class="services">
+            <img src="./assets/support.png" alt="support">
+            <h1> 24/7 Services </h1>
+            <p> Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Culpa quo fugiat incidunt <br>bhic.
+                Maiores alias fuga repudiandae?</p>
+
+        </div>
+        <div class="services">
+            <img src="./assets/support.png" alt="support">
+            <h1> 24/7 Services </h1>
+            <p> Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Culpa quo fugiat incidunt <br>bhic.
+                Maiores alias fuga repudiandae?</p>
+
+        </div>
+        <div class="services">
+            <img src="./assets/support.png" alt="support">
+            <h1> 24/7 Services </h1>
+            <p> Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Culpa quo fugiat incidunt <br>bhic.
+                Maiores alias fuga repudiandae?</p>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
