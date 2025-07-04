@@ -90,7 +90,8 @@
             padding: 1vw;
             background-image: linear-gradient(#ffffff, #efefef);
         }
-        .services h1{
+
+        .services h1 {
             font-size: 2vw;
         }
 
@@ -101,19 +102,50 @@
         .services-container {
             margin: 2vw auto;
             display: flex;
-            grid: template columns 1px / 3px;;
+            grid: template columns 1px / 3px;
+            ;
             justify-content: space-around;
             gap: 2vw;
 
 
         }
 
-        #services {
+        .service {
             margin-top: 4vw;
             margin-bottom: 4vw;
             margin-left: 4vw;
         }
 
+        .service {
+            margin: 4vw;
+        }
+
+        .star {
+            display: flex;
+            align-items: center;
+            gap: 2vw;
+        }
+
+        .star p {
+            font-size: 2vw;
+        }
+
+        .product-container {
+            display: flex;
+            padding: 2vw;
+            border: 2px solid green;
+            align-items: center;
+            width: 20vw;
+            gap: 30px;
+            height: 15vw;
+        }
+
+        .product-content {
+            /* border: 2px solid darkblue; */
+            display: grid;
+            grid-template-columns: 20vw 20vw 20vw 20vw;
+            gap: 2vw;
+        }
 
 
         @media (max-width:600px) {
@@ -126,26 +158,45 @@
             .log-in {
                 display: none;
             }
+
             .services-container {
-            margin: 2vw auto;
-            display: grid;
-            grid-template-columns: 1/1;
-            width: 90vw;
-            height: 60vh;
+                margin: 2vw auto;
+                display: grid;
+                grid-template-columns: 1/1;
+                width: 90vw;
+                height: 60vh;
+
+
+
+
+            }
+
+            .services p {
+                font-size: 2vw;
+            }
+
+            .services img {
+                width: 30%;
+                height: auto;
+            }
+
+
+            .product-container {
+                width: 80vw;
+                height: auto;
+                align-items: center;
+                
+            }
+
+            .product-content {
+                grid-template-columns: 80vw;
+                margin-left: 2vw;
+            }
+
+        }
+
+
         
-            
-
-
-        }
-        .services p{
-            font-size:2vw;
-        }
-        .services img{
-            width: 30%;
-            height: auto;
-        }
-     
-        }
     </style>
 </head>
 
@@ -189,7 +240,7 @@
     </main>
 
     <!-- 2nd banner starts here -->
-    <div id="services">
+    <div class="service">
         <h1> Services </h1>
     </div>
     <div class="services-container">
@@ -215,6 +266,219 @@
                 Maiores alias fuga repudiandae?</p>
         </div>
 
+    </div>
+    <!-- third section start here  -->
+
+
+    <div class="service">
+        <h1> products</h1>
+    </div>
+    <div class="product-content">
+
+        <div class="product-container">
+
+            <div>
+                <img src="./assets/product-onion.png" alt="">
+            </div>
+            <div>
+
+                <div class="star">
+                    <i class="ri-star-fill"></i>
+                    <p>4.5</p>
+                </div>
+                <div>
+                    <h2> ONION 1KG</h2>
+                    <p> $67.55</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+
+            <div>
+                <img src="./assets/product-onion.png" alt="">
+            </div>
+            <div>
+
+                <div class="star">
+                    <i class="ri-star-fill"></i>
+                    <p>4.5</p>
+                </div>
+                <div>
+                    <h2> ONION 1KG</h2>
+                    <p> $67.55</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+
+            <div>
+                <img src="./assets/product-onion.png" alt="">
+            </div>
+            <div>
+
+                <div class="star">
+                    <i class="ri-star-fill"></i>
+                    <p>4.5</p>
+                </div>
+                <div>
+                    <h2> ONION 1KG</h2>
+                    <p> $67.55</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+
+            <div>
+                <img src="./assets/product-onion.png" alt="">
+            </div>
+            <div>
+
+                <div class="star">
+                    <i class="ri-star-fill"></i>
+                    <p>4.5</p>
+                </div>
+                <div>
+                    <h2> ONION 1KG</h2>
+                    <p> $67.55</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+
+            <div>
+                <img src="./assets/product-onion.png" alt="">
+            </div>
+            <div>
+
+                <div class="star">
+                    <i class="ri-star-fill"></i>
+                    <p>4.5</p>
+                </div>
+                <div>
+                    <h2> ONION 1KG</h2>
+                    <p> $67.55</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+
+            <div>
+                <img src="./assets/product-onion.png" alt="">
+            </div>
+            <div>
+
+                <div class="star">
+                    <i class="ri-star-fill"></i>
+                    <p>4.5</p>
+                </div>
+                <div>
+                    <h2> ONION 1KG</h2>
+                    <p> $67.55</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+
+            <div>
+                <img src="./assets/product-onion.png" alt="">
+            </div>
+            <div>
+
+                <div class="star">
+                    <i class="ri-star-fill"></i>
+                    <p>4.5</p>
+                </div>
+                <div>
+                    <h2> ONION 1KG</h2>
+                    <p> $67.55</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+
+            <div>
+                <img src="./assets/product-onion.png" alt="">
+            </div>
+            <div>
+
+                <div class="star">
+                    <i class="ri-star-fill"></i>
+                    <p>4.5</p>
+                </div>
+                <div>
+                    <h2> ONION 1KG</h2>
+                    <p> $67.55</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+
+            <div>
+                <img src="./assets/product-onion.png" alt="">
+            </div>
+            <div>
+
+                <div class="star">
+                    <i class="ri-star-fill"></i>
+                    <p>4.5</p>
+                </div>
+                <div>
+                    <h2> ONION 1KG</h2>
+                    <p> $67.55</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+
+            <div>
+                <img src="./assets/product-onion.png" alt="">
+            </div>
+            <div>
+
+                <div class="star">
+                    <i class="ri-star-fill"></i>
+                    <p>4.5</p>
+                </div>
+                <div>
+                    <h2> ONION 1KG</h2>
+                    <p> $67.55</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+
+            <div>
+                <img src="./assets/product-onion.png" alt="">
+            </div>
+            <div>
+
+                <div class="star">
+                    <i class="ri-star-fill"></i>
+                    <p>4.5</p>
+                </div>
+                <div>
+                    <h2> ONION 1KG</h2>
+                    <p> $67.55</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+
+            <div>
+                <img src="./assets/product-onion.png" alt="">
+            </div>
+            <div>
+
+                <div class="star">
+                    <i class="ri-star-fill"></i>
+                    <p>4.5</p>
+                </div>
+                <div>
+                    <h2> ONION 1KG</h2>
+                    <p> $67.55</p>
+                </div>
+            </div>
+        </div>
     </div>
 
 
