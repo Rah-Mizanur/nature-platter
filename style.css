@@ -180,7 +180,7 @@ body{
     width: 80%;
     margin: 2vh auto;
     border: 2px solid #EFEBE3;
-    border-radius: 1vmin;
+    border-radius: 2vmin;
     align-items: center;
     background-image: linear-gradient(#ffffff , #efebe3);
     /* position: absolute; */
@@ -208,6 +208,8 @@ button{
 }
 .grocery-section{
     margin: 00 2vh;
+    position: relative;
+    top: 6vw;
 
 }
 .footer{
@@ -220,8 +222,8 @@ button{
     background: green;
     padding-left: 2vw;
     padding-right: 2vw;
-    border-radius: 1vmin;
-    
+    border-radius: 2vmin;
+    padding-bottom: 2vw;
 }
 
 /* footer start here  */
@@ -258,12 +260,26 @@ button{
     }
     .grocery-flex{
         flex-direction: column;
+        gap: 6vh;
+        padding-top: 4vh;
     }
     .grocery-img img{
         width: 100%;
     }
     .flex-footer{
         flex-direction: column;
-        padding-top: 30vh;
+        padding-top: 40vh;
     }
+    .grocery-section{
+        top: 40vh;
+        margin-top: -2vh;
+    }
+    .grocery-text p  {
+        font-size: .50em;
+        
+    }
+    .grocery-text h2{
+        font-size: 1em;
+    }
+
 }
